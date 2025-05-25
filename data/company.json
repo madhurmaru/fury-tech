@@ -21,8 +21,6 @@
     { "name": "Technologies", "href": "#technologies" },
     { "name": "Clients", "href": "#clients" },
     { "name": "Careers", "href": "/careers" },
-    { "name": "Portfolio", "href": "/view-our-work" },
-    { "name": "Get Started", "href": "/get-started" },
     { "name": "Contact", "href": "#contact" }
   ],
   "about": {
