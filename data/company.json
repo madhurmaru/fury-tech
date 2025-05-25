@@ -4,9 +4,9 @@
   "description": "Premium technology company specializing in innovative software solutions",
   "logo": "/furytech-logo.png",
   "contact": {
-    "email": "hello@furytech.com",
-    "phone": "+1 (555) 123-4567",
-    "address": "123 Innovation Drive, Tech Valley, CA 94000"
+    "email": "contact@furytech.co",
+    "phone": "+977 9802020798",
+    "address": "Opp. Shyam Mandir, Banjara Chowk, Brt-2, Morang, Nepal"
   },
   "social": {
     "twitter": "https://twitter.com/furytech",
@@ -191,6 +191,13 @@
         "department": "AI Research",
         "location": "Remote",
         "type": "Project-wise",
+        "description": "Develop and deploy machine learning models for various client applications."
+      },
+      {
+      "title": "Intern",
+        "department": "Design & Development",
+        "location": "Remote",
+        "type": "Internship",
         "description": "Develop and deploy machine learning models for various client applications."
       }
     ]
