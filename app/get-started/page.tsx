@@ -287,7 +287,7 @@ export default function GetStartedPage() {
                     </select>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Project Budget Range
                     </label>
@@ -298,7 +298,7 @@ export default function GetStartedPage() {
                       <option value="70k-100k">Rs.70,000 - Rs.100,000</option>
                       <option value="100k+">Rs.100,000+</option>
                     </select>
-                  </div>
+                  </div> */}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
