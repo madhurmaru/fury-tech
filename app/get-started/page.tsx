@@ -263,8 +263,12 @@ export default function GetStartedPage() {
                       />
                     </div>
                     <div>
+                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Phone Number *</label>
+                      <Input placeholder="+1 (800) 555-0199" className="border-gray-300 dark:border-gray-600" />
+                    </div>
+                    <div>
                       <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Company</label>
-                      <Input placeholder="Your Company" className="border-gray-300 dark:border-gray-600" />
+                      <Input placeholder="Your Company" className="w-full px-3 py-2 border-gray-300 dark:border-gray-600" />
                     </div>
                   </div>
 
@@ -289,10 +293,10 @@ export default function GetStartedPage() {
                     </label>
                     <select className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 dark:bg-gray-700 dark:text-white">
                       <option value="">Select budget range</option>
-                      <option value="10k-25k">$10,000 - $25,000</option>
-                      <option value="25k-50k">$25,000 - $50,000</option>
-                      <option value="50k-100k">$50,000 - $100,000</option>
-                      <option value="100k+">$100,000+</option>
+                      <option value="35k-50k">Rs.35,000 - Rs.50,000</option>
+                      <option value="50k-70k">Rs.50,000 - Rs.70,000</option>
+                      <option value="70k-100k">Rs.70,000 - Rs.100,000</option>
+                      <option value="100k+">Rs.100,000+</option>
                     </select>
                   </div>
 
