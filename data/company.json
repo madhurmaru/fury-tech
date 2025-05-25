@@ -15,7 +15,7 @@
     "instagram": "https://instagram.com/furytech"
   },
   "navigation": [
-    { "name": "About Us", "href": "#about" },
+    { "name": "About Us", "href": "/#about" },
     { "name": "Services", "href": "#services" },
     { "name": "Solutions", "href": "#solutions" },
     { "name": "Technologies", "href": "#technologies" },
