@@ -407,7 +407,7 @@ export default function FuryTechWebsite() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-red-600 to-orange-600 text-white">
+      {/* <section className="py-24 bg-gradient-to-r from-red-600 to-orange-600 text-white">
         <div className="container mx-auto px-4 lg:px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Ignite Your Next Project?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
@@ -424,7 +424,7 @@ export default function FuryTechWebsite() {
             </Button>
           </Link>
         </div>
-      </section>
+      </section>*/}
 
       {/* Contact Section */}
       <section id="contact" className="py-24 bg-gray-50 dark:bg-gray-800/50">
