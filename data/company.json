@@ -1,0 +1,196 @@
+{
+  "name": "FuryTech",
+  "tagline": "Ignite Innovation, Fuel the Future",
+  "description": "Premium technology company specializing in innovative software solutions",
+  "logo": "/furytech-logo.png",
+  "contact": {
+    "email": "hello@furytech.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Tech Valley, CA 94000"
+  },
+  "social": {
+    "twitter": "https://twitter.com/furytech",
+    "linkedin": "https://linkedin.com/company/furytech",
+    "github": "https://github.com/furytech",
+    "instagram": "https://instagram.com/furytech"
+  },
+  "navigation": [
+    { "name": "About Us", "href": "#about" },
+    { "name": "Services", "href": "#services" },
+    { "name": "Solutions", "href": "#solutions" },
+    { "name": "Technologies", "href": "#technologies" },
+    { "name": "Clients", "href": "#clients" },
+    { "name": "Careers", "href": "/careers" },
+    { "name": "Portfolio", "href": "/view-our-work" },
+    { "name": "Get Started", "href": "/get-started" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "title": "About FuryTech",
+    "subtitle": "Pioneering the Future of Technology",
+    "description": "Founded with a vision to revolutionize the digital landscape, FuryTech combines cutting-edge technology with innovative thinking to deliver solutions that transform businesses and drive growth.",
+    "mission": "To ignite innovation and fuel the future through transformative technology solutions that empower businesses to achieve extraordinary results.",
+    "values": [
+      {
+        "title": "Innovation First",
+        "description": "We push boundaries and challenge conventions to create breakthrough solutions.",
+        "icon": "Zap"
+      },
+      {
+        "title": "Quality Excellence",
+        "description": "We deliver nothing less than exceptional quality in every project we undertake.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Client Success",
+        "description": "Your success is our success. We're committed to delivering results that exceed expectations.",
+        "icon": "Users"
+      },
+      {
+        "title": "Continuous Growth",
+        "description": "We embrace learning and evolution to stay ahead of technological advances.",
+        "icon": "Rocket"
+      }
+    ],
+    "stats": [
+      { "value": "2018", "label": "Founded" },
+      { "value": "50+", "label": "Expert Team" },
+      { "value": "25+", "label": "Countries Served" },
+      { "value": "500+", "label": "Projects Completed" }
+    ]
+  },
+  "services": [
+    {
+      "title": "Custom Software Development",
+      "description": "Tailored solutions that drive your business forward with cutting-edge technology.",
+      "icon": "Code"
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "Scalable, secure cloud solutions that grow with your business needs.",
+      "icon": "Cloud"
+    },
+    {
+      "title": "AI & Machine Learning",
+      "description": "Intelligent systems that transform data into actionable insights.",
+      "icon": "Brain"
+    },
+    {
+      "title": "Mobile Applications",
+      "description": "Native and cross-platform apps that deliver exceptional user experiences.",
+      "icon": "Smartphone"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Enterprise Digital Transformation",
+      "description": "Complete digital overhaul for large organizations looking to modernize their operations and stay competitive.",
+      "features": ["Legacy System Migration", "Process Automation", "Data Analytics", "Cloud Integration"],
+      "icon": "Rocket"
+    },
+    {
+      "title": "Startup MVP Development",
+      "description": "Rapid prototyping and development solutions for startups looking to validate their ideas and scale quickly.",
+      "features": ["Rapid Prototyping", "Scalable Architecture", "User Testing", "Market Validation"],
+      "icon": "Zap"
+    },
+    {
+      "title": "AI-Powered Solutions",
+      "description": "Intelligent systems that leverage machine learning and AI to automate processes and generate insights.",
+      "features": ["Machine Learning Models", "Natural Language Processing", "Computer Vision", "Predictive Analytics"],
+      "icon": "Brain"
+    },
+    {
+      "title": "Custom Software Platforms",
+      "description": "Tailored software solutions designed specifically for your business needs and industry requirements.",
+      "features": ["Custom Development", "API Integration", "Third-party Connectors", "Ongoing Support"],
+      "icon": "Code"
+    }
+  ],
+  "technologies": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "GraphQL"
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "company": "TechCorp Inc.",
+      "role": "CTO",
+      "content": "FuryTech transformed our entire digital infrastructure. Their innovative approach and technical expertise exceeded all expectations.",
+      "rating": 5
+    },
+    {
+      "name": "Michael Chen",
+      "company": "StartupXYZ",
+      "role": "CEO",
+      "content": "Working with FuryTech was a game-changer. They delivered a solution that scaled our business 10x in just 6 months.",
+      "rating": 5
+    },
+    {
+      "name": "Emily Rodriguez",
+      "company": "Enterprise Solutions",
+      "role": "VP of Engineering",
+      "content": "The team at FuryTech doesn't just code - they architect the future. Absolutely phenomenal work.",
+      "rating": 5
+    }
+  ],
+  "metrics": [
+    { "value": "500+", "label": "Projects Delivered" },
+    { "value": "98%", "label": "Client Satisfaction" },
+    { "value": "50+", "label": "Team Members" },
+    { "value": "24/7", "label": "Support Available" }
+  ],
+  "careers": {
+    "title": "Join the FuryTech Team",
+    "subtitle": "Build the Future with Us",
+    "description": "We're always looking for passionate, innovative minds to join our team. If you're ready to work on cutting-edge projects and make a real impact, we'd love to hear from you.",
+    "culture": [
+      "Remote-first work environment",
+      "Flexible working hours",
+      "Continuous learning opportunities",
+      "Competitive compensation packages",
+      "Health and wellness benefits",
+      "Innovation time for personal projects"
+    ],
+    "openPositions": [
+      {
+        "title": "Senior Full-Stack Developer",
+        "department": "Engineering",
+        "location": "Remote / San Francisco",
+        "type": "Full-time",
+        "description": "Lead development of complex web applications using modern technologies."
+      },
+      {
+        "title": "DevOps Engineer",
+        "department": "Infrastructure",
+        "location": "Remote / New York",
+        "type": "Full-time",
+        "description": "Design and maintain scalable cloud infrastructure and deployment pipelines."
+      },
+      {
+        "title": "UI/UX Designer",
+        "department": "Design",
+        "location": "Remote / Los Angeles",
+        "type": "Full-time",
+        "description": "Create intuitive and beautiful user experiences for our client projects."
+      },
+      {
+        "title": "AI/ML Engineer",
+        "department": "AI Research",
+        "location": "Remote / Boston",
+        "type": "Full-time",
+        "description": "Develop and deploy machine learning models for various client applications."
+      }
+    ]
+  }
+}
