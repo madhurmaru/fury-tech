@@ -76,19 +76,20 @@ export default function GetStartedPage() {
             <span className="text-2xl font-bold text-gray-900 dark:text-white">{companyData.name}</span>
           </Link>
 
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
+            {companyData.navigation.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-colors font-medium"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+
           <div className="flex items-center space-x-4">
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
-              {companyData.navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-colors font-medium"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </nav>
             <Button
               variant="ghost"
               size="icon"
@@ -111,25 +112,24 @@ export default function GetStartedPage() {
             </Link>
           </div>
         </div>
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+            <nav className="container mx-auto px-4 py-4 space-y-4">
+              {companyData.navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="block text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-colors font-medium"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        )}
       </header>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-          <nav className="container mx-auto px-4 py-4 space-y-4">
-            {companyData.navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="block text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
-        </div>
-      )}
 
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden">
