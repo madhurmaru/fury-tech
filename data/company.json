@@ -16,12 +16,12 @@
   },
   "navigation": [
     { "name": "About Us", "href": "/#about" },
-    { "name": "Services", "href": "#services" },
-    { "name": "Solutions", "href": "#solutions" },
-    { "name": "Technologies", "href": "#technologies" },
-    { "name": "Clients", "href": "#clients" },
+    { "name": "Services", "href": "/#services" },
+    { "name": "Solutions", "href": "/#solutions" },
+    { "name": "Technologies", "href": "/#technologies" },
+    { "name": "Clients", "href": "/#clients" },
     { "name": "Careers", "href": "/careers" },
-    { "name": "Contact", "href": "#contact" }
+    { "name": "Contact", "href": "/#contact" }
   ],
   "about": {
     "title": "About FuryTech",
@@ -51,10 +51,10 @@
       }
     ],
     "stats": [
-      { "value": "2018", "label": "Founded" },
+      { "value": "2025", "label": "Founded" },
       { "value": "50+", "label": "Expert Team" },
       { "value": "25+", "label": "Countries Served" },
-      { "value": "500+", "label": "Projects Completed" }
+      { "value": "100+", "label": "Projects Completed" }
     ]
   },
   "services": [
@@ -107,17 +107,22 @@
   ],
   "technologies": [
     "React",
+    "React Native",
     "Next.js",
-    "TypeScript",
     "Node.js",
+    "JavaScript",
+    "TypeScript",
     "Python",
+    "Java",
+    "C++",
     "AWS",
     "Docker",
     "Kubernetes",
     "PostgreSQL",
     "MongoDB",
     "Redis",
-    "GraphQL"
+    "GraphQL",
+    
   ],
   "testimonials": [
     {
@@ -164,29 +169,29 @@
       {
         "title": "Senior Full-Stack Developer",
         "department": "Engineering",
-        "location": "Remote / San Francisco",
-        "type": "Full-time",
+        "location": "Remote",
+        "type": "Project-wise",
         "description": "Lead development of complex web applications using modern technologies."
       },
       {
         "title": "DevOps Engineer",
         "department": "Infrastructure",
-        "location": "Remote / New York",
-        "type": "Full-time",
+        "location": "Remote",
+        "type": "Project-wise",
         "description": "Design and maintain scalable cloud infrastructure and deployment pipelines."
       },
       {
         "title": "UI/UX Designer",
         "department": "Design",
-        "location": "Remote / Los Angeles",
-        "type": "Full-time",
+        "location": "Remote",
+        "type": "Project-wise",
         "description": "Create intuitive and beautiful user experiences for our client projects."
       },
       {
         "title": "AI/ML Engineer",
         "department": "AI Research",
-        "location": "Remote / Boston",
-        "type": "Full-time",
+        "location": "Remote",
+        "type": "Project-wise",
         "description": "Develop and deploy machine learning models for various client applications."
       }
     ]
