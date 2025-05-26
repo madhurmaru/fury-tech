@@ -208,16 +208,19 @@ export default function StartProjectPage() {
                         <Clock className="w-5 h-5 text-red-600" />
                         <span className="text-sm text-gray-600 dark:text-gray-300">{project.timeline}</span>
                       </div>
-                      <div className="flex items-center space-x-2">
+                      {/*<div className="flex items-center space-x-2">
                         <DollarSign className="w-5 h-5 text-red-600" />
                         <span className="text-sm text-gray-600 dark:text-gray-300">{project.price}</span>
                       </div>
-                    </div>
+                    </div>*/}
 
                     {isSelected && (
                       <div className="mt-6 p-4 bg-red-100 dark:bg-red-950/30 rounded-lg">
                         <p className="text-sm text-red-800 dark:text-red-200 font-medium">
-                          ✓ Selected - This project type will be included in your consultation
+                          ✓ Selected - This project type will be included in your consultation.
+                        </p>  
+                        <p>
+                          Scroll Down to schedule a free consultation.
                         </p>
                       </div>
                     )}
