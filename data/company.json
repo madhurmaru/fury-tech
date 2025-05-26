@@ -6,13 +6,15 @@
   "contact": {
     "email": "contact@furytech.co",
     "phone": "+977 9802020798",
-    "address": "Opp. Shyam Mandir, Banjara Chowk, Brt-2, Morang, Nepal"
+    "phone2": "+91 9155223591",
+    "address": "Opp. Shyam Mandir, Banjara Chowk, Brt-2, Morang, Nepal",
+    "address2": "#29, Balaji Layout, RV Vidyaniketan, Mailasandra, Bemgaluru, India "
   },
   "social": {
-    "twitter": "https://twitter.com/furytech",
+    "twitter": "https://x.com/furytech05",
     "linkedin": "https://linkedin.com/company/furytech",
-    "github": "https://github.com/furytech",
-    "instagram": "https://instagram.com/furytech"
+    "github": "https://github.com/madhurmaru",
+    "instagram": "https://instagram.com/fury.tech_"
   },
   "navigation": [
     { "name": "About Us", "href": "/#about" },
