@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   generator: 'Built by FuryTech',
   icons: {
     icon: '/furytech-logo.png',
+  },
 }
 
 export default function RootLayout({
