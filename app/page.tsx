@@ -572,7 +572,7 @@ export default function FuryTechWebsite() {
                 ))}
                 <li key="Get Started">
                     <Link href="/get-started" className="text-gray-400 hover:text-red-400 transition-colors">
-                      {item.name}
+                      Get Started
                     </Link>
                   </li>
               </ul>
