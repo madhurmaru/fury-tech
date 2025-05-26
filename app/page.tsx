@@ -543,7 +543,7 @@ export default function FuryTechWebsite() {
               </p>
               <div className="flex space-x-4">
                 <Link href={companyData.social.twitter} className="text-gray-400 hover:text-red-400 transition-colors">
-                  <Twitter className="w-6 h-6" />
+                  <X className="w-6 h-6" />
                 </Link>
                 <Link href={companyData.social.linkedin} className="text-gray-400 hover:text-red-400 transition-colors">
                   <Linkedin className="w-6 h-6" />
@@ -570,6 +570,11 @@ export default function FuryTechWebsite() {
                     </Link>
                   </li>
                 ))}
+                <li key="Get Started">
+                    <Link href="/get-started" className="text-gray-400 hover:text-red-400 transition-colors">
+                      {item.name}
+                    </Link>
+                  </li>
               </ul>
             </div>
 
