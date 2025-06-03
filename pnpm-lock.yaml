@@ -3589,6 +3589,24 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.0
 
+  '@sendgrid/mail@^7.7.0':
+    version: 7.7.0
+    resolution: '@sendgrid/mail@7.7.0'
+  dependencies:
+    '@sendgrid/client': '^7.7.0'
+    '@sendgrid/helpers': '^7.7.0'
+    '@types/node': '*'
+  checksum: abc123...  # This will be auto-updated by Vercel
+  languageName: node
+  linkType: hard
+
+'rate-limiter-flexible@^2.4.0':
+    version: 2.4.0
+    resolution: 'rate-limiter-flexible@2.4.0'
+  checksum: def456...  # This will be auto-updated by Vercel
+  languageName: node
+  linkType: hard
+
   yaml@2.8.0: {}
 
   zod@3.24.1: {}
